@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Design Using HTML, CSS & JS</title>
+    <!-- CSS File Link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Shortcut icon  -->
+    <link rel="shortcut icon" href="images/Portfolio-pics:logo.jpg" />
+    <!-- Font Awesome Cdn Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <!-- Scroll JS Link  -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Design  -->
+    <header>
+      <nav>
+        <img src="images/Portfolio-pics:logo.jpg" alt="logo" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Porfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Home Page  -->
+      <section class="home" id="home">
+        <span class="text">Welcome To Our Company</span> <br />
+        <span class="text first-text">Coulko & Feres!</span> <br />
+        <span class="text sec-text">logistics</span>
+      </section>
+    </header>
+    <!-- About Page  -->
+    <section class="about" id="about">
+      <div class="about-left-side">
+        <img src="images/couli.jpg" alt="New Image" />
+      </div>
+      <div class="about-right-side">
+        <h1>About Me</h1>
+        <p>
+          Welcome to Coulko & Feres!
+
+With a passion for logistics and a commitment to excellence, I specialize in transporting a wide variety of goods from America to Africa. From cars and furniture to appliances and more, I ensure that your items reach their destination safely and efficiently.
+
+Over the years, I've built a reputation for trustworthiness and reliability. My goal is to make the shipping process as seamless and stress-free as possible for my clients. Whether you're moving household items, shipping a vehicle, or transporting commercial goods, I am here to provide you with top-notch service.
+
+I understand the importance of timely deliveries and the care required for handling diverse types of cargo. That's why I use the latest technologies and adhere to the highest industry standards to protect your goods throughout their journey.
+
+Thank you for considering Coulko & Feres for your shipping needs. I look forward to serving you and helping your items reach their new home in Africa.
+         
+        </p>
+      </div>
+    </section>
+    <!-- Services Page  -->
+    <h1 class="head-text">Services</h1>
+    <section class="services" id="services">
+      <div class="services-cards">
+        <i class="fa fa-truck"></i>
+        <h3>Vehicle Transport</h3>
+        <p>
+          Safe and reliable transport for cars,<br />
+           bikes, and other vehicles to various destinations,<br />
+            specializing in shipments to Africa.
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-couch"></i>
+        <h3>Furniture Shipping</h3>
+        <p>
+          Professional handling and shipping of all types of <br />
+          furniture, ensuring they reach their destination<br />
+           in perfect condition.
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-cogs"></i>
+        <h3>Appliance Delivery</h3>
+        <p>
+          Reliable delivery of household and commercial appliances, <br />
+           including large items like refrigerators, washing machines, <br />
+            and more.
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-wrench"></i>
+        <h3>Car Parts Shipping </h3>
+        <p>
+          Specialized in shipping car parts and accessories,  <br />
+          ensuring safe and timely delivery to repair  <br />
+          shops and individuals.
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-globe"></i>
+        <h3>International Shipping</h3>
+        <p>
+          Comprehensive shipping services to various countries,  <br />
+          with a focus on delivering goods safely  <br />
+          and efficiently to Africa.
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-bar-tv"></i>
+        <h3>Electronics Transport</h3>
+        <p>
+          Secure transport of electronics including TVs, computers, <br />
+          and other gadgets, with care to prevent <br />
+          any damage during transit.
+        </p>
+      </div>
+    </section>
+    <!-- Counter Section  -->
+    <section class="counter">
+      <div class="flex">
+        <div class="s1">
+          <i class="fa fa-skyatlas"></i>
+          <h1 class="counter-value" data-target="338">0</h1>
+          <h4>HAPPY CLIENTS</h4>
+        </div>
+        <div class="s1">
+          <i class="fa fa-heart"></i>
+          <h1 class="counter-value" data-target="885">0</h1>
+          <h4>PROJECTS COMPLEATED</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Page  -->
+    <h1 class="head-text" id="portfolio">Portfolio</h1>
+    <section class="filter-gallery" id="offer">
+      <div class="filter-options">
+        <button class="filter-option active" data-filter="all">All</button>
+        <button class="filter-option" data-filter="cars">CARS</button>
+        <button class="filter-option" data-filter="electronics">ELECTRONICS</button>
+        <button class="filter-option" data-filter="appliances">
+          APPLIANCES
+        </button>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item marketing">
+          <img src="images/Portfolio-pics:1.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item marketing">
+          <img src="images/Portfolio-pics:2.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+               Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item design">
+          <img src="images/Portfolio-pics:3.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+               Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item design">
+          <img src="images/Portfolio-pics:4.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item development">
+          <img src="images/Portfolio-pics:5.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item development">
+          <img src="images/Portfolio-pics:6.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+               Brand ......
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Page -->
+    <section class="footer" id="contact">
+      <h1>Send us a Message</h1>
+      <div class="sides">
+        <form class="form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" /> <br />
+          <br />
+          <input type="text" placeholder=" Subject" />
+          <input type="text" placeholder=" Your Address" /> <br />
+          <br />
+          <textarea cols="65" rows="5" placeholder="Your message"></textarea>
+        </form>
+
+        <div class="content">
+          <h5>+1(316) 941-6840</h5>
+          <h5>coulkollc.@yahoo.com</h5>
+          <h5>1010 N Ridge Road, Wichita, KS</h5>
+          <h2>Socials</h2>
+          <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS Link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
